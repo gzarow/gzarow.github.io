@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <script charset="UTF-8" src="https://s-eu-1.pushpushgo.com/js/6728caf6d4c2307901c625fc.js" async="async"></script>
+    <script>
+        window.ppg = window.ppg || {};
+        window.ppg.register = window.ppg.register || [];
+        window.ppg.register.push(['syncId', subscriberId => console.log("Your SubscriberID:", subscriberId)]);
+    </script>
 </head>
 <body>
-    In de work
+   Testowe pushpushgo
     <var id="ppg-custom-id" data-id="cdcdcdcdcdc"></var>
 </body>
 </html>
-<script>
-    window.ppg = window.ppg || {};
-    window.ppg.register = window.ppg.register || [];
-    window.ppg.register.push(['syncId', subscriberId => console.log("Your SubscriberID:", subscriberId)]);
-</script>
+
