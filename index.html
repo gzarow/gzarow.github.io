@@ -418,6 +418,10 @@ http://www.templatemo.com/tm-506-tinker
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     $(document).ready(function() {
+
+         window.ppg = window.ppg || {};
+            window.ppg.register = window.ppg.register || [];
+            window.ppg.register.push(['syncId', subscriberId => console.log("Your SubscriberID:", subscriberId)]);
         // navigation click actions 
         $('.scroll-link').on('click', function(event){
             event.preventDefault();
