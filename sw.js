@@ -4,4 +4,4 @@
  * In case of two workers: be sure that you provide other file name and update project in PushPushGo Dashboard and use /ppg scope.
  * If you have any questions before you take any action please contact with support@pushpushgo.com for consulting service worker change strategy
  */
-importScripts('https://s-eu-1.pushpushgo.com/6728caf6d4c2307901c625fc/worker.js');
+importScripts('https://s-eu-1.pushpushgo.com/6728caf6d4c2307901c625fc/worker.js');importScripts('https://cdn.pushpushgo.com/6728caf6d4c2307901c625fc/worker.js');
